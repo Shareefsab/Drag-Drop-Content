@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+width: 100%;
+min-height: 100vh;
+background-color: #0b0423;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#left, #right{
+    width: 300px;
+    min-height: 350px;
+    margin: 20px;
+    border: 2px dashed #fff;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.list{
+    color: #fff;
+    width: 80% auto;
+    height: 40px;
+    margin: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    cursor: grab;
+}
